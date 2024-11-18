@@ -1,5 +1,6 @@
 
-# EXP1: 4 Bit Adder functionality verification
+# EXP1:
+## 4 Bit Adder functionality verification
 
 ## Aim:
 To write a verilog code for 4bit adder and verify the functionality using Test bench.
@@ -72,8 +73,8 @@ Developed by: Register Number*/
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
-![Screenshot 2024-10-03 164035](https://github.com/user-attachments/assets/00d90163-a7cb-496d-a70b-2bc4f8e4af41)
 
+![373314964-00d90163-a7cb-496d-a70b-2bc4f8e4af41](https://github.com/user-attachments/assets/e251324f-7786-4b9b-a622-c98aec551e00)
 
 ### Fig 3:Invoke the Cadence Environment
 
@@ -89,9 +90,9 @@ or
 ```
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
-![Screenshot 2024-10-04 155944](https://github.com/user-attachments/assets/64936a8b-105b-41c4-ac3d-ea83063fe16b)
 
 
+![373606578-64936a8b-105b-41c4-ac3d-ea83063fe16b](https://github.com/user-attachments/assets/cbd7d40a-e138-4338-b8c2-fc828d1692a7)
 
 ### Fig 4:Setting Multi-step simulation
 
@@ -99,8 +100,8 @@ or
 
 	Click the cds.lib file and save the file by clicking on Save option 
 
-![Screenshot 2024-10-03 164107](https://github.com/user-attachments/assets/df7662f9-1604-43b3-9c64-b4d701a1cf55)
 
+![p4](https://github.com/user-attachments/assets/d39985bd-efea-43c0-bb5f-13d1772c5eec)
 
 
 ### Fig 5:cds.lib file Creation
@@ -127,11 +128,6 @@ or
 
 
 
-### Fig 7: Nclaunch Window
-![Screenshot 2024-10-03 164140](https://github.com/user-attachments/assets/65594e35-66b1-4bab-a1a2-653e589b6ab2)
-
-
-
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
 	Inputs: Supplied are Verilog design and test bench codes 
@@ -149,7 +145,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-### Fig 8: Compiled database in worklib
+### Fig 7: Compiled database in worklib
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -174,10 +170,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
-### Fig 9: Elaboration Launch Option
-![Screenshot 2024-10-03 164158](https://github.com/user-attachments/assets/9b1f90a9-8700-4c42-afd0-b53a4c4baf5c)
+### Fig 8: Elaboration Launch Option
 
-
+![386923907-9c9cf45d-49e6-4731-94ea-5bdeb48043be](https://github.com/user-attachments/assets/cd8c4b00-1841-4987-b1f1-de36f998eff3)
 
 ## Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -189,19 +184,18 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	Steps for simulation – Run the simulation command with simulator options
 
-### Fig 10: Design Browser window for simulation
+### Fig 9: Design Browser window for simulation
 
 ![Screenshot 2024-10-03 164233](https://github.com/user-attachments/assets/178357e0-e7c3-40f3-ba44-aa76eaa9db93)
 
 
-### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+### Fig 10: Launching Simulation Waveform WindowSimulation Waveform Window
 
 ![Screenshot 2024-10-03 164250](https://github.com/user-attachments/assets/34bc2871-e02e-416f-b9fa-b500dc6b0162)
 
-### Fig 12: Simulation Waveform Window
+### Fig 11: Simulation Waveform Window
 ![Screenshot 2024-10-03 164256](https://github.com/user-attachments/assets/4be4c3f9-c221-403b-bd36-924db495656d)
 
 ## Result:
 The functionality of a 4-bit adder was successfully verified using a test bench and simulated with the nclaunch tool.
-
 
